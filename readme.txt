@@ -32,5 +32,7 @@ You can also use the post_type argument to specify a post type (page, post, car,
 
 1. Install the plugin as you would any other plugin
 
+== Changelog ==
+
 = 1.0 =
 * Initial Release
