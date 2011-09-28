@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: fcc, benbalter
+Contributors: fcc
 Donate link: 
 Tags: counting, statistics, shortcode, data, queries, links
 Requires at least: 3.2
@@ -28,11 +28,18 @@ Insert a shortcode in your post in the form of [count {taxonomy}={value}]. You c
 
 You can also use the post_type argument to specify a post type (page, post, car, etc.)
 
+**List Usage**
+
+You can count all terms within a taxonomy, e.g., [list-counts taxonomy="tags"] or across all taxonomies [list-counts].
+
 == Installation ==
 
 1. Install the plugin as you would any other plugin
 
 == Changelog ==
+
+= 2.0 =
+* Added ability to display counts of all terms in a taxonomy, or across all taxonomies
 
 = 1.0 =
 * Initial Release
